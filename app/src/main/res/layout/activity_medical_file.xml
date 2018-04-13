@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.amb.shcs.MedicalFile">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <TextView
+            android:id="@+id/medicalFile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textAllCaps="true"
+            android:text="your medical file"
+            android:layout_marginBottom="40dp"/>
+
+        <EditText
+            android:id="@+id/dobInput"
+            android:inputType="date"
+            android:layout_width="match_parent"
+            android:hint="Date of Birth"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/sexInput"
+            android:layout_width="match_parent"
+            android:hint="Sex"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/addressInput"
+            android:layout_width="match_parent"
+            android:inputType="textPostalAddress"
+            android:hint="Address"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/contactInput"
+            android:layout_width="match_parent"
+            android:inputType="phone"
+            android:hint="Phone Number"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/emergencyContactNameInput"
+            android:layout_width="match_parent"
+            android:inputType="textCapWords"
+            android:hint="Emergency Contact's Name"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/emergencyContactInput"
+            android:layout_width="match_parent"
+            android:inputType="phone"
+            android:hint="Emergency Contact's Phone Number"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/previousAilmentsInput"
+            android:layout_width="match_parent"
+            android:inputType="textMultiLine"
+            android:hint="Any Previous Known Ailments"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:id="@+id/completeButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:text="Done"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

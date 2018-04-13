@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amb.shcs.PickInsurance">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/yo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <ScrollView
+        android:layout_below="@id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/scrollViewFrame1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/specialists"
+                android:text="Pick Insurance :"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:fontFamily="cursive"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"/>
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_marginTop="70dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="70dp"
+                >
+
+                <RadioButton
+                    android:id="@+id/oneRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aegon Life Insurance Company" />
+
+                <RadioButton
+                    android:id="@+id/twoRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aviva India"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/threeRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bajaj Allianz Life Insurance"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/fourRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Birla Sun Life Insurance Company Limited"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/fiveRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exide Life Insurance"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/sixRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HDFC Standard Life Insurance"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/sevenRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ICICI Prudential Life Insurance"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/eightRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IDBI Federal Life Insurance"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/nineRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IndiaFirst Life Insurance Company"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/tenRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kotak Life Insurance"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/elevenRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Max Life Insurance"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/twelveRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PNB MetLife India Insurance Company"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/thirteenRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reliance Life Insurance"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/fourteenRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SBI Life Insurance Company"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/fifteenRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TATA AIG"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/sixteenRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="None"
+                    android:layout_marginTop="10dp"/>
+
+                <Button
+                    android:layout_below="@id/scrollViewFrame1"
+                    android:id="@+id/insNextButton"
+                    android:text="Next"
+                    android:background="#263238"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    />
+
+            </RadioGroup>
+
+        </FrameLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

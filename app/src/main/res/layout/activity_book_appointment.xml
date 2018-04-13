@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amb.shcs.BookAppointment">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/yo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <ScrollView
+        android:layout_below="@id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/scrollViewFrame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/specialists"
+                android:text="Choose the Specialist :"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:fontFamily="cursive"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"/>
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_marginTop="70dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="130dp"
+                >
+
+                <RadioButton
+                    android:id="@+id/cardiologistRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cardiologist" />
+
+                <RadioButton
+                    android:id="@+id/dermatologistRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dermatologist"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/diabetologistRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Diabetologist"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/entSpecialistRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ENT Specialist"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/endocrinologistRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Endocrinologist"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/gastroenterologistRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gastroenterologist"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/gynaecologistRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gynaecologist"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/neurologistRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Neurologist"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/obstetricianRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Obstetrician"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/oncologistRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Oncologist"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/ophthalmologistRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ophthalmologist"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/orthopaedistRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Orthopaedist"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/psychiatristRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Psychiatrist"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/pulmonologistRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pulmonologist"
+                    android:layout_marginTop="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/urologistRB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Urologist"
+                    android:layout_marginTop="10dp"/>
+
+                <Button
+                    android:layout_below="@id/scrollViewFrame"
+                    android:id="@+id/nextButton"
+                    android:text="Next"
+                    android:background="#263238"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    />
+
+            </RadioGroup>
+
+        </FrameLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
